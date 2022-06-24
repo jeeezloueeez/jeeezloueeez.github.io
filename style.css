@@ -7,12 +7,11 @@ font-family: 'Staatliches', cursive;
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-color: #343A40;
-  display: flex;
-  flex-direction: column;
 }
 
 html {
@@ -41,6 +40,7 @@ html {
 }
 
 .welcome h5 {
+  color: yellow;
   margin-top: 60px;
   font-family: 'Staatliches', cursive; 
   font-size: 30px;
@@ -49,6 +49,7 @@ html {
 }
 
 .welcome p {
+  color: yellow;
   font-size: 6rem;
 }
 
@@ -187,16 +188,24 @@ html {
 }
 
 .about-section {
+  display: flex;
+  flex-direction: row;
   color: white;
   margin-top: 105px;
   width: 100vw;
-  height: 300px;
+  height: 630px;
 }
 
-.title-one {
+.about-image {
+
+}
+
+.about-me-title {
   display: flex;
-  width: 100vw;
-  justify-content: flex-start;
+  width: 480px;
+  height: 150px;
+  margin-left: -350px;
+  margin-top: 200px;
 }
 
 .title-two {
@@ -206,10 +215,44 @@ html {
 }
 
 .about-me {
-  font-size: 60px;
+  font-size: 150px;
   font-family: 'Bebas Neue', cursive;
   letter-spacing: 2px;
-  margin-left: 30px;
+  text-shadow: 5px 5px 5px black;
+}
+
+.me-facing-left {
+  height: 600px;
+  width: 800px;
+  margin-left: px;
+}
+
+.about-me-text {
+  border-left: 1px solid white;
+  padding-left: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+  font-family: 'Noto Serif', serif;
+  font-size: 170%;
+  margin-top: 50px;
+  margin-left: 50px;
+  word-wrap: break-word;
+}
+
+.about-me-text p {
+  font-family: 'Noto Serif', serif;
+  font-size: 100%;
+  text-align: center;
+}
+
+.about-me-text h2 {
+  color: yellow;
+  font-family: 'Staatliches', cursive;
+  font-size: 300%;
+  margin-top: 30px;
+  margin-bottom: 30px; 
 }
 
 .skills-section {
