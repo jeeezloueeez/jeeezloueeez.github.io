@@ -160,7 +160,6 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
 .box{
@@ -318,12 +317,8 @@ html {
   margin-top: 105px;
   width: 100vw;
   height: 700px;
-}
-
-.my-projects {
-  font-size: 150px;
-  font-family: 'Bebas Neue', cursive;
-  letter-spacing: 2px;
+  display: flex;
+  flex-direction: column;
 }
 
 .my-projects {
@@ -331,6 +326,60 @@ html {
   font-family: 'Bebas Neue', cursive;
   letter-spacing: 2px;
   margin-left: 30px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid white;
+  margin-top: 20px;
+}
+
+.project-one-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-one-left a {
+  padding: 400px 100px 0px 100px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Staatliches', cursive;
+  font-size: 500%;
+  margin-top: -400px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.project-one-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.project-one-right p {
+  text-align: center;
+  font-size: 150%;
+  font-family: 'Noto Serif', serif;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.project-one-thumbnail {
+  height: 400px;
+  width: 675px;
 }
 
 .contact-section {
