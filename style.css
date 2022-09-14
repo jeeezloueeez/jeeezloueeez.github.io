@@ -225,7 +225,7 @@ html {
   color: white;
   margin-top: 105px;
   width: 100vw;
-  height: 700px;
+  height: 1100px;
   display: flex;
   flex-direction: column;
 }
@@ -251,12 +251,12 @@ html {
   margin-top: 20px;
 }
 
-.project-one-left {
+.project-one-right {
   display: flex;
   flex-direction: column;
 }
 
-.project-one-left a {
+.project-one-right a {
   padding: 400px 100px 0px 100px;
   color: white;
   text-decoration: none;
@@ -267,14 +267,14 @@ html {
   letter-spacing: 2px;
 }
 
-.project-one-right {
+.project-one-left {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 50%;
 }
 
-.project-one-right p {
+.project-one-left p {
   text-align: center;
   font-size: 150%;
   font-family: 'Noto Serif', serif;
@@ -282,14 +282,61 @@ html {
   margin-bottom: 20px;
 }
 
-.yellow {
-  color: yellow;
-}
-
 .project-one-thumbnail {
   height: 400px;
   width: 675px;
 }
+
+.project-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid white;
+  margin-top: 20px;
+}
+
+.project-two-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-two-right a {
+  padding: 400px 100px 0px 100px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Staatliches', cursive;
+  font-size: 500%;
+  margin-top: -400px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.project-two-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.project-two-left p {
+  text-align: center;
+  font-size: 150%;
+  font-family: 'Noto Serif', serif;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.project-two-thumbnail {
+  height: 400px;
+  width: 675px;
+}
+
+.yellow {
+  color: yellow;
+}
+
 
 .contact-section {
   display: flex;
